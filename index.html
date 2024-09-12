@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider com Animação e Navegação</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide" style="background-color: lightcoral;">Slide 1</div>
+            <div class="slide" style="background-color: lightblue;">Slide 2</div>
+            <div class="slide" style="background-color: lightgreen;">Slide 3</div>
+            <div class="slide" style="background-color: lightyellow;">Slide 4</div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
